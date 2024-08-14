@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "../../public/Logo.jfif";
+import Logo from "/Logo.jfif";
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -17,11 +17,10 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <ul className="flex gap-10">
-                            <li>Home</li>
-                            <li>DROPDOWN</li>
-                            <li>About</li>
-                            BACKGROUNDIMAGE MANEIRA
+                        <ul className="flex gap-16">
+                            <button className="hover:text-sky-700">Home</button>
+                            <button className="hover:text-sky-700">DROPDOWN</button>
+                            <button className="hover:text-sky-700">About</button>
                         </ul>
                     </div>
                 </div>
