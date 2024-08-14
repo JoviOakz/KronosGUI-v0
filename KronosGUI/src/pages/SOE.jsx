@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 
-const Home = () => {
+const SOE = () => {
     return (
         <>
             <div>
@@ -12,4 +12,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default SOE;
