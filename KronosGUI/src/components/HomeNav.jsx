@@ -12,12 +12,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex justify-between items-center w-10/12">
-                    <div>KronosGUI</div>
+                    <div className="text-white">KronosGUI</div>
                     <div>
                         <ul className="flex gap-16">
-                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>Home</button>
-                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>DROPDOWN</button>
-                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>About</button>
+                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>Home</button>
+                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>DROPDOWN</button>
+                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>About</button>
                         </ul>
                     </div>
                 </div>
