@@ -1,12 +1,11 @@
 # Libraries used in this project
 
-This project is made in React-Vite:
+**This project is made in React-Vite:**
 - npm create vite@latest
 - npm i
 - npm run dev
 
-Main libraries:
-
+**Main libraries:**
 Tailwind css:
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
@@ -57,6 +56,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
-Other libraries
+**Other libraries:**
 - npm install react-fast-marquee --save
 - npm install react-dropdown  --save
