@@ -34,7 +34,7 @@ In the arquive index.css, put the code below:
 
 In the src/main.jsx, put the code below:
 
-`import * as React from "react";
+import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -54,7 +54,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-`
 
 **Other libraries:**
 - npm install react-fast-marquee --save
