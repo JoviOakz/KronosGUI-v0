@@ -5,13 +5,9 @@
 - npm i
 - npm run dev
 
-
-**Main libraries:**
-
-Tailwind css:
+**Tailwind css:**
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
-
 
 In the arquive tailwind.config.js, put the code below:
 
@@ -27,17 +23,14 @@ export default {
   plugins: [],
 }
 
-
 In the arquive index.css, put the code below:
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-RouterDOM:
+**RouterDOM:**
 - npm install react-router-dom
-
 
 In the src/main.jsx, put the code below:
 
@@ -61,7 +54,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
 
 **Other libraries:**
 - npm install react-fast-marquee --save
