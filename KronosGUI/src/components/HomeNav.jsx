@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar w-full h-[7vh] flex fixed bg-transparent backdrop-blur shadow-md shadow-gray-400">
+            <div className="navbar w-full h-[7vh] flex fixed bg-transparent backdrop-blur-sm shadow-md shadow-gray-400">
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>

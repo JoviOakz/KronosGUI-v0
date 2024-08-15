@@ -6,7 +6,7 @@ const DE = () => {
     return (
         <>
             <div>
-                <Navbar />
+                <Navbar mapName="Der Eisendrache" />
                 <DEContent />
                 <Footer />
             </div>

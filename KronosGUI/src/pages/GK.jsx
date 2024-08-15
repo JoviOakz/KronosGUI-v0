@@ -6,7 +6,7 @@ const GK = () => {
     return (
         <>
             <div>
-                <Navbar />
+                <Navbar mapName="Gorod Krovi" />
                 <GKContent />
                 <Footer />
             </div>

@@ -6,7 +6,7 @@ const SOE = () => {
     return (
         <>
             <div>
-                <Navbar />
+                <Navbar mapName="Shadows of Evil" />
                 <SOEContent />
                 <Footer />
             </div>

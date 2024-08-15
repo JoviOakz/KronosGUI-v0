@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "/Logo.jfif";
+import Logo from "/dragao2.jfif";
 
-const Navbar = () => {
+const Navbar = ({mapName}) => {
     const navigate = useNavigate();
 
     return (
@@ -12,7 +12,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex justify-between items-center w-10/12">
-                    <div>Shadows of Evil</div> {/* how to change the name of the page */}
+                    <div>{mapName}</div>
                     <div>
                         <ul className="flex gap-16">
                             <button className="hover:text-sky-700" onClick={() => navigate("/")}>Home</button>
