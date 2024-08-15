@@ -6,6 +6,7 @@ const HomeContent = () => {
             <div>
                 <div>
                     <img className="h-[115vh]" src={Background} />
+                    <button>NOME</button>
                 </div>
 
                 <div>

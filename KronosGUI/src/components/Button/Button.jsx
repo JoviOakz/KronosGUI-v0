@@ -1,7 +1,9 @@
+// import "./style.css"
+
 const Button = () => {
     return (
         <>
-            <button></button>
+            <button>Get Started</button>
         </>
     )
 }
