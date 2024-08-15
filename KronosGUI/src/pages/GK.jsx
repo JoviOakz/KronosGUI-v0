@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const GK = () => {
     return (
         <>
-            <div className="min-h-[86vh]">
+            <div>
                 <Navbar />
                 <GKContent />
                 <Footer />

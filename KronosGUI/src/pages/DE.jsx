@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const DE = () => {
     return (
         <>
-            <div className="min-h-[86vh]">
+            <div>
                 <Navbar />
                 <DEContent />
                 <Footer />
