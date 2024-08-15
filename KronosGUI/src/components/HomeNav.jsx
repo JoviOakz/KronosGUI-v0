@@ -12,10 +12,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex justify-between items-center w-10/12">
-                    <div>
-                        Shadows of Evil
-                    </div>
-
+                    <div>KronosGUI</div>
                     <div>
                         <ul className="flex gap-16">
                             <button className="hover:text-sky-700">Home</button>
