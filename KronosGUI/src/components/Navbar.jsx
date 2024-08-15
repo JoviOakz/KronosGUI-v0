@@ -15,9 +15,9 @@ const Navbar = () => {
                     <div>Shadows of Evil</div> {/* how to change the name of the page */}
                     <div>
                         <ul className="flex gap-16">
-                            <button className="hover:text-sky-700">Home</button>
-                            <button className="hover:text-sky-700">DROPDOWN</button>
-                            <button className="hover:text-sky-700">About</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>Home</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>DROPDOWN</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>About</button>
                         </ul>
                     </div>
                 </div>

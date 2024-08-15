@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar w-full h-[7vh] flex  shadow-md shadow-gray-400">
+            <div className="navbar w-full h-[7vh] flex fixed bg-transparent backdrop-blur shadow-md shadow-gray-400">
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>
@@ -15,9 +15,9 @@ const Navbar = () => {
                     <div>KronosGUI</div>
                     <div>
                         <ul className="flex gap-16">
-                            <button className="hover:text-sky-700">Home</button>
-                            <button className="hover:text-sky-700">DROPDOWN</button>
-                            <button className="hover:text-sky-700">About</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>Home</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>DROPDOWN</button>
+                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>About</button>
                         </ul>
                     </div>
                 </div>
