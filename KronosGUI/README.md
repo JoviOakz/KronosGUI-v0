@@ -6,6 +6,7 @@
 - npm run dev
 
 **Main libraries:**
+
 Tailwind css:
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
