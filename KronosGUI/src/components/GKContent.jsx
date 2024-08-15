@@ -1,7 +1,7 @@
 const GKContent = () => {
     return (
         <>
-            <div className="min-h-[86vh]">
+            <div className="min-h-[81vh]">
                 
             </div>
         </>

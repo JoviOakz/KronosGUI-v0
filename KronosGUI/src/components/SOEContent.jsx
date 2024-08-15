@@ -4,9 +4,9 @@ import Logo from "/Logo.jfif";
 const SOEContent = () => {
     return (
         <>
-            <div className="min-h-[86vh]">
+            <div className="min-h-[81vh]">
                 <Marquee>
-                    <img className="h-[86vh]" src={Logo} />
+                    <img className="h-[81vh]" src={Logo} />
                 </Marquee>
             </div>
         </>
