@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "/dragao2.jfif";
+import Logo from "/Logo.jfif";
 
 const Navbar = ({mapName}) => {
     const navigate = useNavigate();
 
     return (
         <>
-            <div className="navbar w-full h-[7vh] bg-zinc-500 flex  shadow-md shadow-gray-400">
+            <div className="navbar w-full h-[7vh] bg-zinc-500 flex shadow-md shadow-gray-400">
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>
