@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
 import Logo from "/Logo.jfif";
 
 const Navbar = () => {
     const navigate = useNavigate();
+    const options = [
+        'one', 'two', 'three'
+    ];
+    const defaultOption = options[0];
 
     return (
         <>
@@ -16,7 +22,8 @@ const Navbar = () => {
                     <div>
                         <ul className="flex gap-16">
                             <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>Home</button>
-                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>DROPDOWN</button>
+                            <Dropdown options={options}  value={defaultOption} placeholder="Select an option" />
+                            {/* <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>DROPDOWN</button> */}
                             <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>About</button>
                         </ul>
                     </div>
