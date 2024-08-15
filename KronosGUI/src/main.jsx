@@ -16,15 +16,15 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/shadows",
+    path: "/shadows-of-evil",
     element: <SOE />,
   },
   {
-    path: "/eisendrache",
+    path: "/der-eisendrache",
     element: <DE />,
   },
   {
-    path: "/krovi",
+    path: "/gorod-krovi",
     element: <GK />,
   },
 ]);

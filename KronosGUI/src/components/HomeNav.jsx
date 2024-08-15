@@ -6,9 +6,9 @@ import Logo from "/Logo.jfif";
 const Navbar = () => {
     const navigate = useNavigate();
     const options = [
-        { value: 'shadows', label: 'Shadows of Evil' },
-        { value: 'eisendrache', label: 'Der Eisendrache' },
-        { value: 'krovi', label: 'Gorod Krovi' }
+        { value: 'shadows-of-evil', label: 'Shadows of Evil' },
+        { value: 'der-eisendrache', label: 'Der Eisendrache' },
+        { value: 'gorod-krovi', label: 'Gorod Krovi' }
     ];
     const defaultOption = 'Choose a Map';
 
