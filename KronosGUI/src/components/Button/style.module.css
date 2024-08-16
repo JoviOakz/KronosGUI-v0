@@ -1,4 +1,4 @@
-button {
+.button {
     padding: 0.8em 1.8em;
     border: 2px solid #17C3B2;
     position: relative;
@@ -13,7 +13,7 @@ button {
     color: #17C3B2;
 }
 
-button::before {
+.button::before {
     content: '';
     width: 0;
     height: 300%;
@@ -27,10 +27,10 @@ button::before {
     z-index: -1;
 }
 
-button:hover::before {
+.button:hover::before {
     width: 105%;
 }
 
-button:hover {
+.button:hover {
     color: #111;
 }

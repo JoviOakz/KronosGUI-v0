@@ -1,9 +1,9 @@
-// import "./style.css"
+import style from "./style.module.css"
 
-const Button = () => {
+const Button = ({children, ...props}) => {
     return (
         <>
-            <button />
+            <button {...props} className={style.button}>{children}</button>
         </>
     )
 }
