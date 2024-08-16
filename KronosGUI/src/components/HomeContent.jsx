@@ -5,7 +5,7 @@ const HomeContent = () => {
     return (
         <>
             <div>
-                <div className="flex justify-center items-center h-[115vh] bg-cover" style={{ backgroundImage: `url(${Background})` }}>
+                <div className="flex justify-center items-center h-[113vh] bg-cover" style={{ backgroundImage: `url(${Background})` }}>
                     <Button onClick={() => console.log("a de amo")}>Get Started</Button>
                 </div>
 
