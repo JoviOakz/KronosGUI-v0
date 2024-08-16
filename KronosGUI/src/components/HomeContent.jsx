@@ -1,5 +1,6 @@
 import Background from "/Home-bg.png";
 import Button from "./Button/Button";
+import Card from "./Card";
 
 const HomeContent = () => {
     return (
@@ -10,7 +11,15 @@ const HomeContent = () => {
                 </div>
 
                 <div className="min-h-[60vh] bg-slate-500">
-                    Searching for a map:
+                    <div className="flex justify-center p-12">
+                        <p className="text-5xl font-serif">Searching for a map:</p>
+                    </div>
+
+                    <div className="flex flex-wrap justify-around gap-12 p-8">
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
                 </div>
             </div>
         </>
