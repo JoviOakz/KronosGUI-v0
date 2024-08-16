@@ -9,8 +9,8 @@ const HomeContent = () => {
                     <Button onClick={() => console.log("Teste")}>Get Started</Button>
                 </div>
 
-                <div>
-
+                <div className="min-h-[60vh] bg-slate-500">
+                    Searching for a map:
                 </div>
             </div>
         </>
