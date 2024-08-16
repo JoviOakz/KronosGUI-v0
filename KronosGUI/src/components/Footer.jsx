@@ -5,18 +5,26 @@ const Footer = () => {
     return (
         <>
             {/* shadow-[0_-4px_6px_-1px,0_-2px_4px_-2px] shadow-gray-400 */}
-            <div className="flex flex-col justify-evenly items- footer w-full h-[22vh] bg-slate-800">
+            <div className="flex flex-col justify-evenly items- footer w-full h-[22vh] bg-slate-800 ">
                 <div className="flex justify-center flex-wrap gap-16 items-center">
-                    <div className="w-80 h-[2px] bg-slate-200 opacity-50"></div>
+                    <div className="w-80 h-[2px] bg-slate-200 opacity-40" />
                     <ul className="flex gap-8">
                         <img src={Github} />
                         <img src={Instagram} />
                     </ul>
-                    <div className="w-80 h-[2px] bg-slate-200 opacity-50"></div>
+                    <div className="w-80 h-[2px] bg-slate-200 opacity-40" />
                 </div>
 
-                <div className="flex justify-center flex-wrap gap-16 items-center">
+                <div className="flex flex-col justify-center items-center">
                     <img src={Github} />
+                    <p className="text-slate-200">2024</p>
+                    <div>
+                        <ul className="flex gap-3 items-center">
+                            <a className="text-slate-200 hover:text-sky-700" href="">Motivation</a>
+                            <div className="w-[2px] h-4 bg-slate-200 opacity-60" />
+                            <a className="text-slate-200 hover:text-sky-700" href="">About Us</a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </>
