@@ -1,16 +1,19 @@
 # Libraries used in this project
 
-**This project is made in React-Vite:**
+### This project is made in React-Vite:
 - npm create vite@latest
 - npm i
 - npm run dev
 
-**Tailwind css:**
+## Main libraries:
+
+### Tailwind css:
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 
-In the arquive tailwind.config.js, put the code below:
+**In the arquive tailwind.config.js, put the code below:**
 
+```
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -22,18 +25,22 @@ export default {
   },
   plugins: [],
 }
+```
 
-In the arquive index.css, put the code below:
+**In the arquive index.css, put the code below:**
 
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
 **RouterDOM:**
 - npm install react-router-dom
 
-In the src/main.jsx, put the code below:
+**In the src/main.jsx, put the code below:**
 
+```
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
@@ -54,7 +61,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+```
 
-**Other libraries:**
+## Other libraries:
 - npm install react-fast-marquee --save
 - npm install react-dropdown  --save
+
+## Future implementations
+- Vercel
+- Updated videos
