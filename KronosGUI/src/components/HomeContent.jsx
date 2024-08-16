@@ -6,7 +6,7 @@ const HomeContent = () => {
         <>
             <div>
                 <div className="flex justify-center items-center h-[113vh] bg-cover" style={{ backgroundImage: `url(${Background})` }}>
-                    <Button onClick={() => console.log("a de amo")}>Get Started</Button>
+                    <Button onClick={() => console.log("Teste")}>Get Started</Button>
                 </div>
 
                 <div>
