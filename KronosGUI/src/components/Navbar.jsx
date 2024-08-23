@@ -3,7 +3,7 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Logo from "/Logo.jfif";
 
-const Navbar = ({mapName}) => {
+const Navbar = ({ mapName }) => {
     const navigate = useNavigate();
     const options = [
         { value: 'shadows-of-evil', label: 'Shadows of Evil' },
