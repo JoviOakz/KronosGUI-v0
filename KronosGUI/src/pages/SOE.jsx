@@ -5,11 +5,9 @@ import Footer from "../components/Footer";
 const SOE = () => {
     return (
         <>
-            <div>
-                <Navbar mapName="Shadows of Evil" />
-                <SOEContent />
-                <Footer />
-            </div>
+            <Navbar mapName="Shadows of Evil" />
+            <SOEContent />
+            <Footer />
         </>
     )
 }

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Logo from "/Logo.jfif";
@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar w-full h-[12vh] p-2 flex fixed bg-transparent backdrop-blur-sm">
+            <div className="navbar w-full h-[8vh] p-2 flex fixed bg-transparent backdrop-blur-sm">
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>
@@ -26,10 +26,10 @@ const Navbar = () => {
                 <div className="flex justify-between items-center w-10/12">
                     <div className="text-white">KronosGUI</div>
                     <div>
-                        <ul className="flex gap-12">
-                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>Home</button>
+                        <ul className="flex gap-12 items-center">
+                            <Link className="hover:text-sky-700 text-white" to={"/"}>Home</Link>
                             <Dropdown options={options} onChange={handleDropdownChange} value={defaultOption} />
-                            <button className="hover:text-sky-700 text-white" onClick={() => navigate("/")}>About</button>
+                            <Link className="hover:text-sky-700 text-white" to={"/"}>About</Link>
                         </ul>
                     </div>
                 </div>

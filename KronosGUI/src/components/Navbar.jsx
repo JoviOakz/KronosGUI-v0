@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Logo from "/Logo.jfif";
@@ -18,7 +18,7 @@ const Navbar = ({mapName}) => {
 
     return (
         <>
-            <div className="navbar w-full h-[12vh] p-2 bg-zinc-500 flex shadow-md shadow-gray-400">
+            <div className="navbar w-full h-[8vh] p-2 bg-zinc-500 flex shadow-md shadow-gray-400">
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>
@@ -26,10 +26,10 @@ const Navbar = ({mapName}) => {
                 <div className="flex justify-between items-center w-10/12">
                     <div>{mapName}</div>
                     <div>
-                        <ul className="flex gap-12">
-                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>Home</button>
+                        <ul className="flex gap-12 items-center">
+                            <Link className="hover:text-sky-700" to="/">Home</Link>
                             <Dropdown options={options} onChange={handleDropdownChange} value={defaultOption} />
-                            <button className="hover:text-sky-700" onClick={() => navigate("/")}>About</button>
+                            <Link className="hover:text-sky-700" to="/">About</Link>
                         </ul>
                     </div>
                 </div>

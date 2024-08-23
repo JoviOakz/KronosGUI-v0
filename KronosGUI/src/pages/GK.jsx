@@ -5,11 +5,9 @@ import Footer from "../components/Footer";
 const GK = () => {
     return (
         <>
-            <div>
-                <Navbar mapName="Gorod Krovi" />
-                <GKContent />
-                <Footer />
-            </div>
+            <Navbar mapName="Gorod Krovi" />
+            <GKContent />
+            <Footer />
         </>
     )
 }

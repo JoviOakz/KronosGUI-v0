@@ -5,11 +5,9 @@ import Footer from "../components/Footer";
 const DE = () => {
     return (
         <>
-            <div>
-                <Navbar mapName="Der Eisendrache" />
-                <DEContent />
-                <Footer />
-            </div>
+            <Navbar mapName="Der Eisendrache" />
+            <DEContent />
+            <Footer />
         </>
     )
 }

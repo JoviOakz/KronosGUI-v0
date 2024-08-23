@@ -1,7 +1,7 @@
 const DEContent = () => {
     return (
         <>
-            <div className="min-h-[81vh]">
+            <div className="min-h-[92vh]">
 
             </div>
         </>
