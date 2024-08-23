@@ -1,7 +1,7 @@
 import PageEnveloper from "../components/PageEnveloper";
 import Background from "/Home-bg.png";
 import Button from "../components/Button/Button"
-import Card from "../components/Card";
+import InformationCard from "../components/InformationCard";
 
 const Home = () => {
     return (
@@ -17,9 +17,9 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-wrap justify-around gap-12 p-8">
-                        <Card />
-                        <Card />
-                        <Card />
+                        <InformationCard />
+                        <InformationCard />
+                        <InformationCard />
                     </div>
                 </div>
             </div>
