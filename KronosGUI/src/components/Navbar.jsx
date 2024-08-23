@@ -18,7 +18,7 @@ const Navbar = ({ mapName, isHome = true }) => {
 
     return (
         <>
-            <div className={`navbar w-full h-[8vh] p-2 ${isHome ? "flex fixed bg-transparent backdrop-blur-sm" : "bg-zinc-500 flex shadow-md shadow-gray-400"}`}>
+            <div className={`navbar w-full h-[8vh] p-2 ${isHome ? "flex fixed bg-transparent backdrop-blur-sm z-[2]" : "bg-zinc-500 flex shadow-md shadow-gray-400"}`}>
                 <div className="flex justify-center w-1/12">
                     <img className="rounded-full" src={Logo} />
                 </div>

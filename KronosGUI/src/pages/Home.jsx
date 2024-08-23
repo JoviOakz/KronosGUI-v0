@@ -1,5 +1,5 @@
 import PageEnveloper from "../components/PageEnveloper";
-import Background from "../../public/Home-bg.png";
+import Background from "/Home-bg.png";
 import Button from "../components/Button/Button"
 import Card from "../components/Card";
 
