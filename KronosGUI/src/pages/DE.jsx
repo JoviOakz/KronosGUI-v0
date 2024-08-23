@@ -1,14 +1,12 @@
-import Navbar from "../components/Navbar";
-import DEContent from "../components/DEContent";
-import Footer from "../components/Footer";
+import PageEnveloper from "../components/PageEnveloper";
 
 const DE = () => {
     return (
-        <>
-            <Navbar mapName="Der Eisendrache" />
-            <DEContent />
-            <Footer />
-        </>
+        <PageEnveloper navProps={{ mapName: "Der Eisendrache", isHome: false }}>
+            <div className="min-h-[92vh]">
+
+            </div>
+        </PageEnveloper>
     )
 }
 

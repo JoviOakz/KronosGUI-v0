@@ -1,14 +1,12 @@
-import Navbar from "../components/Navbar";
-import GKContent from "../components/GKContent";
-import Footer from "../components/Footer";
+import PageEnveloper from "../components/PageEnveloper";
 
 const GK = () => {
     return (
-        <>
-            <Navbar mapName="Gorod Krovi" />
-            <GKContent />
-            <Footer />
-        </>
+        <PageEnveloper navProps={{ mapName: "Gorod Krovi", isHome: false }}>
+            <div className="min-h-[92vh]">
+                
+            </div>
+        </PageEnveloper>
     )
 }
 

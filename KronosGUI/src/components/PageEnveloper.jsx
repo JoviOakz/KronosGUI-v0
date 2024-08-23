@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const PageEnveloper = ({ children }) => {
+const PageEnveloper = ({ children, navProps }) => {
     return (
         <>
-            <Navbar />
+            <Navbar {...navProps} />
             {children}
             <Footer />
         </>
