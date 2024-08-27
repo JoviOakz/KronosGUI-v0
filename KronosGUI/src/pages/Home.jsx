@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import PageEnveloper from "../components/PageEnveloper";
 import Background from "/Home-bg.png";
 import GSButton from "../components/GetStartedButton/Button"
@@ -7,6 +8,10 @@ import DE from "/DE-thumb.webp";
 import GK from "/GK-thumb.jpg"
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     return (
         <PageEnveloper navProps={{ mapName: "KronosGUI" }}>
             <div>
