@@ -1,12 +1,9 @@
 import style from "./style.module.css"
 
 const Button = ({ children, ...props }) => {
-    const totalHeight = document.documentElement.scrollHeight;
-    const cardPosition = totalHeight / 3.175;
-
     const scrollToTarget = () => {
         window.scrollTo({
-            top: cardPosition,
+            top: 835,
             behavior: 'smooth'
         });
     };
