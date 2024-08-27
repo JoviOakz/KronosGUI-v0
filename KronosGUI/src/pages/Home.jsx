@@ -11,7 +11,7 @@ const Home = () => {
         <PageEnveloper navProps={{ mapName: "KronosGUI" }}>
             <div>
                 <div className="flex justify-center items-center h-[113vh] bg-cover" style={{ backgroundImage: `url(${Background})` }}>
-                    <GSButton onClick={() => console.log("Teste")}>Get Started</GSButton>
+                    <GSButton>Get Started</GSButton>
                 </div>
 
                 <div className="min-h-[60vh] bg-slate-500">
