@@ -16,7 +16,6 @@ const InformationCard = ({children, mapName, mapImage}) => {
                 <div className="flex flex-col h-full justify-between items-center pb-8">
                     <p className="flex pl-10 pr-10 text-justify">{children}</p>
                     <Link to={mapName.toLowerCase().replaceAll(' ', '-')}><Button>Enter</Button></Link>
-                    
                 </div>
             </div>
         </>
