@@ -74,4 +74,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 ## Doubts
 - [x] How to reload the page after clicking on a link?
 - [ ] How to reload the page after selecting a value on the dropdown? (same page who you in)
-- [ ] How to make the page slide down after pressing Get Started?
+- [x] How to make the page slide down after pressing Get Started?
