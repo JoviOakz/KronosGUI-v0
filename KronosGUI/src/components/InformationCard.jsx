@@ -3,9 +3,9 @@ import Button from "./Button/Button";
 
 const InformationCard = ({children, mapName, mapImage, ...props}) => {
     return (
-        <div {...props} className="flex flex-col w-[45%] h-[82vh] rounded-3xl bg-white shadow-md shadow-slate-700">
+        <div {...props} className="flex flex-col w-[45%] h-[82vh] rounded-3xl bg-white shadow-lg shadow-slate-900">
             <div>
-                <img className="rounded-t-3xl" src={mapImage} />
+                <img className="rounded-t-[20px]" src={mapImage} />
             </div>
 
             <div className="flex justify-center p-4">

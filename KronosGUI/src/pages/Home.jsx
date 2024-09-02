@@ -17,7 +17,9 @@ const Home = () => {
 
                 <div className="h-[30vh] bg-[#091036]" />
 
-                <div className="bg-gradient-to-b from-[#091036] from-5% via-[#384070] to-[#384070]">
+                <div className="flex items-end bg-gradient-to-b from-[#091036] from-5% via-[#384070] to-[#384070]">
+                    <div><img src={Dragon} /></div>
+
                     <div className="flex flex-wrap justify-around gap-12 p-8">
                         <InformationCard id="shadowsOfEvil" mapName={"Shadows of Evil"} mapImage={SOE}>
                             Shadows of Evil is the eighteenth (chronologically third) Zombies map. It is the first Zombies map in Black Ops 3. The setting takes place in the fictional city of Morg City, from the 1940s, where it introduces four new characters, Nero Blackstone, Jessica Rose, Jack Vincent and Floyd Campbell as they are transported to a nightmarish realm by the Shadow Man, a supernatural being, leader of the Apothicons.
@@ -29,9 +31,8 @@ const Home = () => {
                             Gorod Krovi (City of Blood) is the fifth Zombies map in Black Ops 3. The four travel to a war-torn Stalingrad, in another alternate universe, during a massive battle between several Group 935 controlled Dragons and Russian Giant Robots in search for this universe's Nikolai Belinski.
                         </InformationCard>
                     </div>
-                    <div className="">
-                        <img src={Dragon} />
-                    </div>
+
+                    <div><img src={Dragon} /></div>
                 </div>
             </div>
         </PageEnveloper>
