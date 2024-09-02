@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="w-80 h-[2px] bg-slate-200 opacity-40" />
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center bg-[#01091C]">
                 <img className="w-24 rounded-lg" src={Logo} />
                 <p className="text-slate-200">2024</p>
                 <div>
