@@ -3,7 +3,7 @@ import Button from "./Button/Button";
 
 const InformationCard = ({children, mapName, mapImage, ...props}) => {
     return (
-        <div {...props} className="flex flex-col w-[45%] h-[92vh] rounded-3xl bg-white shadow-md shadow-slate-600">
+        <div {...props} className="flex flex-col w-[45%] h-[82vh] rounded-3xl bg-white shadow-md shadow-slate-700">
             <div>
                 <img className="rounded-t-3xl" src={mapImage} />
             </div>

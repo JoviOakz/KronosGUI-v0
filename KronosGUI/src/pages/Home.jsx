@@ -14,7 +14,9 @@ const Home = () => {
                     <a href="#shadowsOfEvil"><Button>Get started</Button></a>
                 </div>
 
-                <div className="min-h-[60vh] bg-slate-500">
+                <div className="h-[30vh] bg-[#091036]" />
+
+                <div className="bg-gradient-to-b from-[#091036] from-5% via-slate-500 to-slate-500">
                     <div className="flex flex-wrap justify-around gap-12 p-8">
                         <InformationCard id="shadowsOfEvil" mapName={"Shadows of Evil"} mapImage={SOE}>
                             Shadows of Evil is the eighteenth (chronologically third) Zombies map. It is the first Zombies map in Black Ops 3. The setting takes place in the fictional city of Morg City, from the 1940s, where it introduces four new characters, Nero Blackstone, Jessica Rose, Jack Vincent and Floyd Campbell as they are transported to a nightmarish realm by the Shadow Man, a supernatural being, leader of the Apothicons.
