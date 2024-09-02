@@ -9,9 +9,7 @@ const Button = ({ children, ...props }) => {
     };
 
     return (
-        <>
-            <button onClick={scrollToTarget} {...props} className={style.button}>{children}</button>
-        </>
+        <button onClick={scrollToTarget} {...props} className={style.button}>{children}</button>
     )
 }
 

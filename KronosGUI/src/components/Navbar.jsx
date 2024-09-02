@@ -17,24 +17,22 @@ const Navbar = ({ mapName, isHome = true }) => {
     };
 
     return (
-        <>
-            <div className={`navbar w-full h-[8vh] p-2 ${isHome ? "flex fixed bg-transparent backdrop-blur-sm z-[2]" : "bg-slate-800 flex shadow-md shadow-gray-400"}`}>
-                <div className="flex justify-center w-1/12">
-                    <img className="rounded-full" src={Logo} />
-                </div>
+        <div className={`navbar w-full h-[8vh] p-2 ${isHome ? "flex fixed bg-transparent backdrop-blur-sm z-[2]" : "bg-slate-800 flex shadow-md shadow-gray-400"}`}>
+            <div className="flex justify-center w-1/12">
+                <img className="rounded-full" src={Logo} />
+            </div>
 
-                <div className="flex justify-between items-center w-10/12">
-                    <div className="text-white">{mapName}</div>
-                    <div>
-                        <ul className="flex gap-12 items-center">
-                            <Link className="text-white hover:text-sky-700" to="/">Home</Link>
-                            <Dropdown options={options} onChange={handleDropdownChange} value={defaultOption} />
-                            <Link className="text-white hover:text-sky-700" to="/">About</Link>
-                        </ul>
-                    </div>
+            <div className="flex justify-between items-center w-10/12">
+                <div className="text-white">{mapName}</div>
+                <div>
+                    <ul className="flex gap-12 items-center">
+                        <Link className="text-white hover:text-sky-700" to="/">Home</Link>
+                        <Dropdown options={options} onChange={handleDropdownChange} value={defaultOption} />
+                        <Link className="text-white hover:text-sky-700" to="/">About</Link>
+                    </ul>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
