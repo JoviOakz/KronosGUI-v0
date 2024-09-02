@@ -5,7 +5,6 @@ import InformationCard from "../components/InformationCard";
 import SOE from "/SOE-thumb.png";
 import DE from "/DE-thumb.webp";
 import GK from "/GK-thumb.jpg"
-import Dragon from "/Dragon-icon.png";
 
 const Home = () => {
     return (
