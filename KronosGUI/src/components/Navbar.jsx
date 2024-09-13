@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
 import Logo from "/Logo.jfif";
+import 'react-dropdown/style.css';
 
 const Navbar = ({ mapName, isHome = true }) => {
     const navigate = useNavigate();
