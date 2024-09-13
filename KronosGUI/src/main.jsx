@@ -5,9 +5,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import TG from "./pages/TG";
 import SOE from "./pages/SOE";
+import TG from "./pages/TG";
 import DE from "./pages/DE";
+import ZS from "./pages/ZS";
 import GK from "./pages/GK";
 import './index.css'
 
@@ -17,16 +18,20 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/the-giant",
-    element: <TG />,
-  },
-  {
     path: "/shadows-of-evil",
     element: <SOE />,
   },
   {
+    path: "/the-giant",
+    element: <TG />,
+  },
+  {
     path: "/der-eisendrache",
     element: <DE />,
+  },
+  {
+    path: "/zetsubou-no-shima",
+    element: <ZS />,
   },
   {
     path: "/gorod-krovi",
