@@ -6,6 +6,7 @@ import Logo from "/Logo.jfif";
 const Navbar = ({ mapName, isHome = true }) => {
     const navigate = useNavigate();
     const options = [
+        { value: 'the-giant', label: 'The Giant' },
         { value: 'shadows-of-evil', label: 'Shadows of Evil' },
         { value: 'der-eisendrache', label: 'Der Eisendrache' },
         { value: 'gorod-krovi', label: 'Gorod Krovi' }

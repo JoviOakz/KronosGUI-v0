@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import TG from "./pages/TG";
 import SOE from "./pages/SOE";
 import DE from "./pages/DE";
 import GK from "./pages/GK";
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/the-giant",
+    element: <TG />,
   },
   {
     path: "/shadows-of-evil",
